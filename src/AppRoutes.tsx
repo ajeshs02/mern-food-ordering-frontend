@@ -9,7 +9,7 @@ export default function AppRoutes() {
       <Route
         path="/"
         element={
-          <Layout>
+          <Layout showHero={true}>
             <HomePage />
           </Layout>
         }

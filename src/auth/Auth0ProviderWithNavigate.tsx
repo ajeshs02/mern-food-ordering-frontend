@@ -26,6 +26,7 @@ export default function Auth0ProviderWithNavigate({ children }: Props) {
       clientId={clientId}
       authorizationParams={{
         redirect_uri: redirectUri,
+        audience,
       }}
       onRedirectCallback={onRedirectCallback}
     >
