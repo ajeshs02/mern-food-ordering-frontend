@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 
 type Props = {
   children: React.ReactNode;
-  showHero: boolean;
+  showHero?: boolean;
 };
 
 export default function Layout({ children, showHero = false }: Props) {
